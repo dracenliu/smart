@@ -2,6 +2,7 @@ package com.smart.sso.server.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import com.smart.mvc.dao.mybatis.Dao;
@@ -12,6 +13,7 @@ import com.smart.sso.server.model.UserRole;
  * 
  * @author Joe
  */
+@Mapper
 public interface UserRoleDao extends Dao<UserRole, Integer> {
 
 	public UserRole findByUserRoleId(@Param("userId") Integer userId, @Param("roleId") Integer roleId);

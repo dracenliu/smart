@@ -24,7 +24,6 @@ public interface AuthenticationRpcService {
 	 * 
 	 * @param token
 	 *            授权码
-	 * @param appCode
 	 *            应用编码
 	 * @return
 	 */

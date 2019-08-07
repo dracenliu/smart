@@ -41,7 +41,7 @@ import io.swagger.annotations.ApiParam;
 public class LoginController extends BaseController{
 	
 	// 登录页
-	private static final String LOGIN_PATH = "/login";
+	private static final String LOGIN_PATH = "login";
 
 	@Resource
 	private TokenManager tokenManager;
